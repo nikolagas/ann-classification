@@ -1,5 +1,6 @@
 from preprocessing import Integer, Categorical, Dense,\
     Sequential, BayesSearchCV, KerasClassifier, X_train, y_train
+
 # Step 4:  Define the search space for the hyperparameters
 search_space = {
     'neurons': Integer(8, 64),
