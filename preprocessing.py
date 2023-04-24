@@ -16,7 +16,7 @@ from skopt import BayesSearchCV
 from skopt.space import Real, Integer, Categorical
 
 # Step 2: Load the dataset and check for missing values
-df = pd.read_csv('C:/Users/Nik/PycharmProjects/ANN/venv/as1-bank.csv')
+df = pd.read_csv('path-to/venv/as1-bank.csv')
 string_columns = ["default", "housing", "loan"]
 df = df.drop(columns=string_columns)
 print(df.isnull().sum())
