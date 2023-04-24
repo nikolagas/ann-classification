@@ -1,7 +1,6 @@
 from preprocessing import Sequential, Dense, \
     KerasClassifier, GridSearchCV, X_train, y_train
 
-
 # Step 4. Grid search for optimal parameters
 
 def create_model(neurons=8, hidden_layers=1, optimizer='sgd', activation='relu'):
